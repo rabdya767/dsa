@@ -1,3 +1,5 @@
+package Recursion;
+
 public class PowerOfTwo {
 
     static int powerOfTwo(int n) {
