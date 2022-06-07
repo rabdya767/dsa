@@ -38,3 +38,25 @@ Types of Algorithms :
 Recursion : 
     A way of solving a problem by having a function calling itself.
 
+GCD : 
+    Euclidean Algorithm : 
+        gcd(a, b) = gcd(b, a mod b);
+
+Big O Notations : 
+    - Big O : 
+        It is a complexity that is going to be less or equal to the worst case.
+    - Big - Omega : 
+        It is a complexity that is going to be at least more than the best case.
+    - Big Theta :
+        It is a complexity that is within bounds of the worst and the best cases.
+
+Finding element in Array through Iteration :
+    - Big O : O(N)
+    - Big - Omega : Omega(1)
+    - Big Theta : Theta(n / 2)
+
+O(1) - Constant - Accessing a specific element in Array.
+O(N) - Linear - Loop through array elements.
+O(LogN) - logarithmic - Find an element in sorted array.
+O(N2) - Quadratic - Looking at a every index in the array twice.
+O(2N) - Exponential - Double recursion in Fibonacci.
