@@ -61,3 +61,4 @@ O(LogN) - logarithmic - Find an element in sorted array.
 O(N2) - Quadratic - Looking at a every index in the array twice.
 O(2N) - Exponential - Double recursion in Fibonacci.
 
+
