@@ -7,10 +7,12 @@ public class SumAndProduct {
         int product = 1;
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
-        }
-        for (int i = 0; i < array.length; i++) {
             product = product * array[i];
         }
+        /**for (int i = 0; i < array.length; i++) {
+            product = product * array[i];
+        }
+        */
         System.out.println("Sum : " + sum);
         System.out.println("Product : " + product);
     }
